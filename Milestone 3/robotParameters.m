@@ -5,3 +5,6 @@ ticksPerRot = 20; % Ticks per rotation for encoders
 load wheelLUT %Look up table for platform motors
 Ts = 0.01; %Sample time
 load wheelMotorModel %Motor model for platform motors
+load SimMap.mat;
+x = 0.16521;
+y = 0.091117;
