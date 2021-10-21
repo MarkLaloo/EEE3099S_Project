@@ -1,10 +1,3 @@
-made readme bc i dont want my commit text to be long 
-
-PathNavHardwareV1 is untouched from Sundays work.
-PathNavV1 is the sim file, has been updated to more reliably solve the maze. might not work all the time but its decent.
-This file does not incl any of your algorithm stuff, so youll have to copy paste into here if you testing.
-
-
 update 20 Oct 22:11
 pushed 4 files, PathNavV3, PathNavShortestRoute, robotParameters and createShortPath
 Run robotParameters
@@ -14,3 +7,10 @@ Run PathNavShortestRoute, which uses the directions mentioned above
 
 ****NB****
 if changing robot start pos, edit the x and y variables in robotParameters to ensure a consistent start point across sims.
+
+update 21 Oct 02:11am
+pushed PathNavHardwareV3
+robot can semi reliably (~60% of runs) detect a junction correctly and take the appropriate LSRB direction.
+robot starts random nav on sw1 press
+after robot reaches end of game, pressing sw2 will start navigation using predermined path set by random nav
+no path optimization on hardware bc i cant figure it out rn
